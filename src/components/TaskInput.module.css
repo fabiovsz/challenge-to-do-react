@@ -1,0 +1,36 @@
+.taskContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 3.375rem;
+  margin-top: -5.4rem;
+}
+
+.taskContainer input {
+  width: 46rem;
+  padding: 1rem 1rem;
+  background: var(--gray-500);
+  color: var(--gray-300);
+  border: 1.5px solid var(--gray-700);
+  border-radius: 8px;
+}
+
+.createTaskButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--blue-dark);
+  width: 5.625rem;
+  border: none;
+  color: var(--gray-100);
+  font-weight: bold;
+  font-size: 0.875rem;
+  border-radius: 8px;
+  transition: 150ms;
+}
+
+.createTaskButton:hover {
+  cursor: pointer;
+  background: var(--blue);
+}
