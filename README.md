@@ -1,3 +1,3 @@
-# challenge-to-do-react
+ToDo List React
 
-todo-app
+Simple to do application using React, working on state concepts.
