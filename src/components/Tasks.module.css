@@ -1,5 +1,11 @@
 .taskContainer {
-  flex: 1;
+  margin: 2rem auto;
+  width: 736px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3.688rem;
+  max-width: 46rem;
+  flex-direction: column;
 }
 
 .taskContainer header {
@@ -52,4 +58,18 @@
 
 .emptyTasksText p:first-child {
   font-weight: bold;
+}
+
+@media (max-width:768px) {
+  .taskContainer {
+    max-width: 700px;
+  }
+
+}
+
+@media (max-width:768px) {
+  .taskContainer {
+    max-width: 300px;
+  }
+
 }
